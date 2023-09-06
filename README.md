@@ -29,3 +29,23 @@ Here you will find all the images I'm using to create this responsive ecommerce 
 Get the full source code from [here1]().
 
 Get the full source code from [here2]().
+
+
+<!-- 
+const close = document.getElementById("close");
+const homebar = document.querySelector("homebar");
+const nav = document.getElementById("navbar");
+
+if (homebar) {
+    homebar.addEventListener("click", () => {
+    nav.classList.add("active");
+    });
+}
+
+if (close) {
+    close.addEventListener("click", () => {
+    nav.classList.remove("active");
+    });
+}
+
+ -->
